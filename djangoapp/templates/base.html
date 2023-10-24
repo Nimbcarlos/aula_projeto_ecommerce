@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    {% include 'parciais/_head.html' %}
+    {% include 'parciais/_header.html' %}
+</head>
+
+<body style="background:  {{ escolha_cor.background }}">
+    {% include 'parciais/_nav.html' %}
+
+    <main class="container mt-4 mb-4">
+        {% block content %}{% endblock content %}
+    </main>
+
+    {% include 'parciais/_footer.html' %}
+
+</body>
+
+</html>

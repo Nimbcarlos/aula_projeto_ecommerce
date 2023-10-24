@@ -1,0 +1,5 @@
+Django>=4.2.6,<4.3
+django-axes>=6.1.1,<6.2
+django-colorfield>=0.10.1,<0.11
+django-crispy-forms>=2.1,<2.2
+Pillow>=10.1.0,<10.2
