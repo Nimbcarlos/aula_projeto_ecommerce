@@ -9,7 +9,7 @@ class ItemPedidoInline(admin.TabularInline):
 
 @admin.register(Pedido)
 class PedidoAdmin(admin.ModelAdmin):
-    list_display = 'id', 'usuario', 'status',
+    list_display = 'id', 'usuario', 'total', 'status',
     list_display_links = 'usuario',
     search_fields = 'id', 'usuario', 'status',
     inlines = ItemPedidoInline,
